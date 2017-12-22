@@ -1,10 +1,11 @@
----
-navhome: /docs/
-navuptwo: true
-next: true
-sort: 3
-title: Administration and operation
----
+:-  :~
+navhome+'/docs/'
+navuptwo+&
+next+&
+sort+3
+title+'Administration and operation'
+==
+;>
 
 # Administration and operation
 
@@ -66,13 +67,14 @@ with ')', the Dojo rejects it.
 
 `Ctrl-x` - Switches the prompt between running console apps
 
-`Ctrl-c` - Crash current event.  Processed at the Unix layer and prints a stack trace.
+`Ctrl-c` - Crash current event.  Processed at the Unix layer and prints
+a stack trace.
 
 `Ctrl-d` - From Talk or Dojo stops your Urbit process.
 
 `↑` / `↓` - History navigation
 
-The following emacs-style key bindings are available:
+The following Emacs-style key bindings are available:
 
 ```
 Ctrl-a    Cursor to beginning of the line (Home)
