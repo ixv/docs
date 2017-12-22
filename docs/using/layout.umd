@@ -1,10 +1,11 @@
----
-navhome: /docs/
-navuptwo: true
-next: true
-sort: 4
-title: Source layout
----
+:-  :~
+navhome+'/docs/'
+navuptwo+&
+next+&
+sort+4
+title+'Source layout'
+==
+;>
 
 # Arvo source
 
