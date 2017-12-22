@@ -1,10 +1,11 @@
----
-navhome: /docs/
-navuptwo: true
-next: true
-sort: 2
-title: Setup
----
+:-  :~
+navhome+'/docs/'
+navuptwo+&
+next+&
+sort+2
+title+'Setup'
+==
+;>
 
 # Getting started
 
@@ -33,10 +34,10 @@ This will create a directory `fintud-macrep/` and begin building your
 urbit. This may take a few minutes.
 
 > If you are booting a star, the process is the same as above, with your
-> respective star name and ticket. 
->
-> If you are booting a galaxy, see 
-> [this Fora post](https://urbit.org/fora/posts/~2016.8.17..21.04.11..1450~/).
+  respective star name and ticket. 
+ 
+  If you are booting a galaxy, see 
+  [this Fora post](https://urbit.org/fora/posts/~2016.8.17..21.04.11..1450~/).
 
 If you do not have a ticket, you can still make a _comet_, a wild urbit
 drifting through cyberspace. Pick your own directory name, it doesn't
@@ -78,8 +79,8 @@ Good.
 
 ### Messaging — Talk
 
-Use `ctrl-x` to change your prompt. Let's join the main Urbit chat
-channel, `/urbit-meta`:
+Use `Ctrl-x` on your keyboard to change your prompt. Let's join the main
+Urbit chat channel, `/urbit-meta`:
 
 ```
 ~your-urbit:talk[] ;join ~samzod/urbit-meta
