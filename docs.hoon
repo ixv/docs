@@ -6,7 +6,7 @@ nav+'false'
 title+'Docs'
 ==
 ;>
-;link(type "text/css", rel "stylesheet", href "/===/web/docs/style.css");
+;link(type "text/css", rel "stylesheet", href "/===/web/lib/css/docs.css");
 ;div.lead
   ;div(class "logo inverse");
   ;h1(class "black i-b"): Urbit docs
