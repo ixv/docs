@@ -1,0 +1,15 @@
+.head {
+  margin-bottom: 4rem;
+}
+
+ul li p {
+  margin-bottom: 0;
+}
+
+.list a {
+  color: rgb(85, 89, 92);
+  border-bottom: 2px solid black;
+  text-decoration-line: none;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
